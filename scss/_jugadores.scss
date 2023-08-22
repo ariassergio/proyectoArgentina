@@ -1,0 +1,9 @@
+.tarjetas{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+    .card{
+        margin: 5px;
+        display: grid;
+    }
+}

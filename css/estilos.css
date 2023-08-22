@@ -1,0 +1,359 @@
+@charset "UTF-8";
+#carouselExampleAutoplaying {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 .30rem .5rem #212121; }
+  @media screen and (max-width: 480px) {
+    #carouselExampleAutoplaying {
+      margin-top: 130px; } }
+  @media screen and (min-width: 1280px) {
+    #carouselExampleAutoplaying {
+      width: 60%;
+      align-items: center;
+      justify-content: center; } }
+
+.maineditado {
+  background-color: rgba(0, 0, 0, 0.562); }
+  .maineditado h1 {
+    color: #f2f2f2;
+    text-align: center; }
+  .maineditado .h2campeon {
+    color: #fef607;
+    margin: 4px;
+    text-align: center; }
+  .maineditado h5 {
+    color: #f2f2f2;
+    margin-top: 30px;
+    margin-left: 10px; }
+  .maineditado .textoexplicativo {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #f2f2f2; }
+    @media screen and (max-width: 480px) {
+      .maineditado .textoexplicativo {
+        margin-top: 20px;
+        margin-left: 6px;
+        margin-right: 6px; } }
+  .maineditado .sectioncampeon {
+    max-width: 1920px;
+    margin: 0 auto; }
+    .maineditado .sectioncampeon h3 {
+      color: #fef607;
+      margin-left: 180px;
+      margin-top: 50px; }
+      @media screen and (max-width: 480px) {
+        .maineditado .sectioncampeon h3 {
+          margin: 0 auto;
+          text-align: center; } }
+    .maineditado .sectioncampeon .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      margin-right: 10px; }
+      @media screen and (max-width: 480px) {
+        .maineditado .sectioncampeon .grid-layout {
+          grid-template-columns: 1fr; } }
+      .maineditado .sectioncampeon .grid-layout p {
+        color: #f2f2f2;
+        margin: 0 auto;
+        max-width: 600px; }
+        .maineditado .sectioncampeon .grid-layout p .textocampeon {
+          max-width: 800px;
+          margin: 0 auto;
+          color: #f2f2f2; }
+      .maineditado .sectioncampeon .grid-layout .videoscampeon {
+        max-width: 500px;
+        height: 400px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: 1px solid #fef607; }
+        @media screen and (max-width: 480px) {
+          .maineditado .sectioncampeon .grid-layout .videoscampeon {
+            width: 300px;
+            height: 250px;
+            margin: 0 auto;
+            margin-top: 10px; } }
+
+.maineditado {
+  margin-left: 25px;
+  margin-right: 25px; }
+  .maineditado .sectionhistoria {
+    max-width: 1920px;
+    margin: 0 auto; }
+    .maineditado .sectionhistoria .divhistoria {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      @media screen and (max-width: 480px) {
+        .maineditado .sectionhistoria .divhistoria {
+          grid-template-columns: 1fr; } }
+      .maineditado .sectionhistoria .divhistoria .phistoria {
+        color: #f2f2f2;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center; }
+        @media screen and (max-width: 480px) {
+          .maineditado .sectionhistoria .divhistoria .phistoria {
+            margin-bottom: 10px;
+            text-align: center; } }
+      .maineditado .sectionhistoria .divhistoria .img3 {
+        margin-top: 25px;
+        margin-bottom: 10px; }
+        @media screen and (max-width: 480px) {
+          .maineditado .sectionhistoria .divhistoria .img3 {
+            margin: 0 auto; } }
+        .maineditado .sectionhistoria .divhistoria .img3 .img3tamaño {
+          width: 450px;
+          height: 300px;
+          border: 1px solid #fef607; }
+          @media screen and (max-width: 480px) {
+            .maineditado .sectionhistoria .divhistoria .img3 .img3tamaño {
+              width: 300px;
+              height: 250px; } }
+  .maineditado h4 {
+    color: #fef607;
+    margin: 10px; }
+  .maineditado .planteles {
+    max-width: 1920px;
+    margin: 0 auto; }
+    .maineditado .planteles .añoarg {
+      margin-left: 180px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: #fef607; }
+      @media screen and (max-width: 480px) {
+        .maineditado .planteles .añoarg {
+          margin: 0 auto;
+          margin-bottom: 10px;
+          margin-top: 10px; } }
+    .maineditado .planteles .argplantel {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      @media screen and (max-width: 480px) {
+        .maineditado .planteles .argplantel {
+          grid-template-columns: 1fr; } }
+      .maineditado .planteles .argplantel .posiciones {
+        width: 300px;
+        height: auto;
+        margin: 0 auto; }
+        @media screen and (max-width: 480px) {
+          .maineditado .planteles .argplantel .posiciones {
+            margin-bottom: 10px; } }
+        .maineditado .planteles .argplantel .posiciones .textoplanteles {
+          color: #f2f2f2;
+          max-width: 300px;
+          margin: 0 auto;
+          margin-left: 5px;
+          margin-right: 5px;
+          margin-top: 10px;
+          text-align: center;
+          border: 1px solid #fef607; }
+      .maineditado .planteles .argplantel .imgplanteles {
+        margin: 0 auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px; }
+        @media screen and (max-width: 480px) {
+          .maineditado .planteles .argplantel .imgplanteles {
+            margin: 0 auto; } }
+        .maineditado .planteles .argplantel .imgplanteles .imgborde {
+          border: 1px solid #fef607; }
+          @media screen and (max-width: 480px) {
+            .maineditado .planteles .argplantel .imgplanteles .imgborde {
+              width: 300px; } }
+  .maineditado .ttitulos {
+    margin-bottom: 15px; }
+    @media screen and (max-width: 480px) {
+      .maineditado .ttitulos {
+        text-align: center; } }
+  .maineditado .textotitulos {
+    color: #f2f2f2;
+    margin: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 1000px; }
+    @media screen and (max-width: 480px) {
+      .maineditado .textotitulos {
+        width: 300px; } }
+  .maineditado .slider-frame {
+    width: 600px;
+    margin: 50px auto 0;
+    overflow: hidden; }
+    @media screen and (max-width: 480px) {
+      .maineditado .slider-frame {
+        margin-top: 10px;
+        width: 300px; } }
+    .maineditado .slider-frame ul {
+      display: flex;
+      padding: 0;
+      width: 600%; }
+      .maineditado .slider-frame ul li {
+        list-style: none;
+        width: 16.66%; }
+        .maineditado .slider-frame ul li img {
+          width: 100%; }
+
+@keyframes slide {
+  0% {
+    margin-left: 0%; }
+  16.66% {
+    margin-left: -100%; }
+  33.33% {
+    margin-left: -200%; }
+  50% {
+    margin-left: -300%; }
+  66.66% {
+    margin-left: -400%; }
+  83.33% {
+    margin-left: -500%; }
+  100% {
+    margin-left: -500%; } }
+    .maineditado .slider-frame ul {
+      animation: slide 40s infinite alternate ease-in-out; }
+
+.tarjetas {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr)); }
+  .tarjetas .card {
+    margin: 5px;
+    display: grid; }
+
+.acordeon-fixture {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px; }
+  .acordeon-fixture .accordion {
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow: none; }
+    .acordeon-fixture .accordion .accordion-item {
+      background-color: rgba(0, 0, 0, 0.562);
+      color: #f2f2f2; }
+      .acordeon-fixture .accordion .accordion-item .accordion-button:not(.collapsed) {
+        color: #fef607;
+        background-color: #f2f2f2; }
+      .acordeon-fixture .accordion .accordion-item .Argentina {
+        color: #fef607; }
+
+.h3galeria {
+  margin: 30px;
+  text-align: center;
+  color: #fef607; }
+
+.linea {
+  background-color: #fef607;
+  height: 5px;
+  width: 100%;
+  display: block; }
+
+.mainfixture {
+  background-color: rgba(0, 0, 0, 0.562);
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px; }
+  .mainfixture .h4galeria {
+    color: #fef607;
+    margin: 15px; }
+  .mainfixture .sectiongaleria {
+    max-width: 1920px; }
+    .mainfixture .sectiongaleria .galeria {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      margin-left: 25px;
+      margin-right: 25px; }
+      @media screen and (max-width: 480px) {
+        .mainfixture .sectiongaleria .galeria {
+          grid-template-columns: 1fr;
+          margin: 0 auto;
+          margin-top: 20px;
+          margin-bottom: 20px; } }
+      .mainfixture .sectiongaleria .galeria .imggaleria {
+        width: 400px;
+        height: 400px;
+        border: 1px solid #fef607;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out; }
+        .mainfixture .sectiongaleria .galeria .imggaleria:hover {
+          transform: scale(1.1); }
+        @media screen and (max-width: 480px) {
+          .mainfixture .sectiongaleria .galeria .imggaleria {
+            width: 250px;
+            height: 300px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  background-image: url(img/fondo2.jpg);
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+main {
+  flex: 1; }
+
+.barranav {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.562); }
+  .barranav .nav-link {
+    color: #f2f2f2; }
+  .barranav .nav-link:hover {
+    color: #fef607; }
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.562);
+  padding: 1rem 8%;
+  display: flex;
+  justify-content: center; }
+  footer .grupo1 {
+    display: flex; }
+    footer .grupo1 .box {
+      margin: 0 auto; }
+      footer .grupo1 .box .logoafa {
+        margin: 0 auto; }
+        footer .grupo1 .box .logoafa .logofooter {
+          width: 85px;
+          height: 85px; }
+    footer .grupo1 .redes-sociales {
+      margin: auto;
+      display: flex; }
+      footer .grupo1 .redes-sociales .redesfooter {
+        width: 2rem;
+        margin: 3px; }
+      footer .grupo1 .redes-sociales .redesfooter:hover {
+        filter: invert(1); }
+    footer .grupo1 .copy {
+      margin: auto;
+      margin-left: 10px; }
+      footer .grupo1 .copy .copyright {
+        color: #f2f2f2;
+        opacity: 0.3;
+        text-align: center; }

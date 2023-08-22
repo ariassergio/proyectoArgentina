@@ -1,0 +1,90 @@
+.maineditado{
+    background-color: $fondo;
+    
+    h1{
+        color: $blanco;
+        text-align: center;
+    }
+    .h2campeon{
+        color: $dorado;
+        margin: 4px;
+        text-align: center;
+        
+    }
+    
+    h5{
+        
+        color: $blanco;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .textoexplicativo{
+        max-width: 800px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        color: $blanco;
+        @include mobile{
+            margin-top: 20px;
+            margin-left: 6px;
+            margin-right: 6px;
+            
+        }
+    }
+    .sectioncampeon{
+        max-width: 1920px;
+        margin: 0 auto;
+        h3{
+            color: $dorado;
+            margin-left: 180px;
+            margin-top: 50px;
+            @include mobile{
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+        .grid-layout{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            @include mobile{
+                grid-template-columns: 1fr;
+            }
+        p{
+            color: $blanco;
+            margin: 0 auto;
+            max-width: 600px;
+        .textocampeon{
+            max-width: 800px;
+            margin: 0 auto;
+            
+            color: $blanco;
+        } 
+        }
+        .videoscampeon{
+            max-width: 500px;
+            height: 400px;
+            width: 100%;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            border: 1px solid $dorado;
+        @include mobile{
+            width: 300px;
+            height: 250px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        }   
+        
+        
+        
+        }
+    }
+    
+}

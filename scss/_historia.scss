@@ -1,0 +1,214 @@
+.maineditado{  
+    margin-left: 25px;
+    margin-right: 25px;
+ .sectionhistoria{
+  max-width: 1920px;
+    
+  margin: 0 auto;
+    .divhistoria{ 
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      @include mobile{
+        grid-template-columns: 1fr;
+      }
+      
+      .phistoria{
+        
+        color: $blanco;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+        @include mobile{
+          margin-bottom: 10px;
+          text-align: center;
+        }
+        
+      }
+
+      .img3{
+        
+        margin-top: 25px;           
+        margin-bottom: 10px;
+       @include mobile{
+        margin: 0 auto;
+        
+       }         
+        
+        .img3tamaño{
+          width:  450px;
+          height: 300px;
+          border: 1px solid $dorado;
+          @include mobile{
+            width: 300px;
+            height: 250px;
+          }
+        }
+      }
+    }  
+  }     
+    h4{
+        
+        color: $dorado;
+        margin: 10px;
+    
+    }
+    
+    .planteles{
+    
+        max-width: 1920px;
+    
+       margin: 0 auto;
+    
+    
+     .añoarg{
+            
+        margin-left: 180px;
+            
+            margin-top: 50px;   
+            
+            margin-bottom: 50px;
+            
+            text-align: center;
+            
+            color: $dorado;
+            @include mobile{
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-top: 10px;
+            }
+        
+        }
+        
+        .argplantel{
+            
+            display: grid;
+            
+            grid-template-columns: 1fr 1fr;
+            @include mobile{
+              grid-template-columns: 1fr;
+            }
+        
+        
+        
+            .posiciones{
+                width: 300px;
+                height: auto;
+                margin: 0 auto;
+                @include mobile{
+                  margin-bottom: 10px;
+                }   
+                
+            
+                .textoplanteles{
+                
+                    color: $blanco;
+                
+                    max-width: 300px;
+                
+                    margin: 0 auto;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                
+                    margin-top: 10px;
+                
+                    text-align: center;
+                    
+                    border: 1px solid $dorado;
+                   
+            
+                }
+            }
+            .imgplanteles{
+                
+                margin: 0 auto;
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+               @include mobile{
+                margin: 0 auto;
+               }
+                
+              .imgborde{
+                border: 1px solid $dorado;
+                @include mobile{
+                  width: 300px;
+                } 
+              }
+              
+            }
+        
+        }
+    
+    }
+    .ttitulos{
+      margin-bottom: 15px;
+      @include mobile{
+        text-align: center;
+      }
+    }
+    .textotitulos{
+      color: $blanco;
+      margin: 10px;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: center;
+      width: 1000px;
+     @include mobile{
+      width: 300px;
+     }
+     
+    }
+    .slider-frame {
+        width: 600px;
+        margin: 50px auto 0;
+        overflow: hidden;
+      @include mobile{
+        margin-top: 10px;
+        width: 300px;
+      }
+        ul {
+          display: flex;
+          padding: 0;
+          width: 600%;
+      
+          li {
+            list-style: none;
+            width: 16.66%; // Cambiado el ancho al 16.66% para acomodar 6 imágenes
+            
+            img {
+              width: 100%;
+            }
+          }
+        }
+      
+        @keyframes slide {
+            0% {
+              margin-left: 0%;
+            }
+            16.66% {
+              margin-left: -100%;
+            }
+            33.33% {
+              margin-left: -200%;
+            }
+            50% {
+              margin-left: -300%;
+            }
+            66.66% {
+              margin-left: -400%;
+            }
+            83.33% {
+              margin-left: -500%;
+            }
+            100% {
+              margin-left: -500%; // Mantener el mismo valor para la última posición
+            }
+          }
+      
+        ul {
+          animation: slide 40s infinite alternate ease-in-out;
+        }
+      }
+      
+}      

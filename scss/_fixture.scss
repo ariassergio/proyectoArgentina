@@ -1,0 +1,97 @@
+
+.acordeon-fixture{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    
+    .accordion{
+        --bs-accordion-btn-focus-border-color: none;
+        --bs-accordion-btn-focus-box-shadow: none;
+        .accordion-item{
+            background-color: $fondo ;
+            color: $blanco;
+        .accordion-button:not(.collapsed) {
+            color: $dorado;
+            background-color: $blanco;
+            
+        }
+        .Argentina{
+            color: $dorado;
+        }    
+    }
+    }
+}
+.h3galeria{
+    margin: 30px;
+    text-align: center;
+    color: $dorado;
+    
+}
+.linea{
+    background-color: $dorado;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.mainfixture{
+    background-color: $fondo;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    .h4galeria{
+        color: $dorado;
+        margin: 15px;
+    }
+    .sectiongaleria{
+        max-width: 1920px;
+        
+    
+    .galeria{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        @include mobile{
+            grid-template-columns: 1fr;
+            
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+       
+       
+        
+        
+        
+        .imggaleria{
+            width: 400px;
+            height: 400px;
+            border: 1px solid $dorado;
+            margin: 0 auto;
+           
+            
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+            }
+        @include mobile{
+            width: 250px;
+            height: 300px;
+            
+            
+
+        }
+        }
+        
+    }
+}
+}

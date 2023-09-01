@@ -4,14 +4,10 @@
     box-shadow: 0 .30rem .5rem #212121 ;
     @include mobile{
         margin-top: 130px;
-        
     }
     @include desktop{
-        
         width: 60%;
         align-items: center;
         justify-content: center;
-        
     }
-    
 }

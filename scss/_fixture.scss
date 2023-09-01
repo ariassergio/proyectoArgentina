@@ -12,18 +12,19 @@
             background-color: $fondo ;
             color: $blanco;
         .accordion-button:not(.collapsed) {
-            color: $dorado;
+            color: rgb(5, 247, 255);
             background-color: $blanco;
-            
+            text-decoration: solid;
         }
         .Argentina{
             color: $dorado;
-        }    
+        }
     }
     }
 }
 .h3galeria{
-    margin: 30px;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: $dorado;
     
@@ -39,10 +40,14 @@
     background-color: $fondo;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 25px;
+    
     .h4galeria{
         color: $dorado;
-        margin: 15px;
+        margin: 2rem;
+        text-align: center;
+        @include mobile{
+            text-align: center;
+        }
     }
     .sectiongaleria{
         max-width: 1920px;
@@ -65,33 +70,23 @@
             margin-bottom: 20px;
             
         }
-       
-       
-        
-        
-        
         .imggaleria{
             width: 400px;
             height: 400px;
             border: 1px solid $dorado;
             margin: 0 auto;
-           
-            
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out;
             &:hover {
                 transform: scale(1.1);
             }
-        @include mobile{
-            width: 250px;
-            height: 300px;
-            
-            
-
-        }
+            @include mobile{
+                width: 250px;
+                height: 300px;
+                }
         }
         
     }
-}
+}   
 }

@@ -29,27 +29,29 @@ body{
 main{
     flex: 1;
 }
-.barranav{
-    width: 100%;
-    margin: 0 auto;
-    background-color:$fondo;
-    .nav-link{
-        color: $blanco;
-    }
-    .nav-link:hover{
-        color: $dorado;
-        
+header{
+    margin-bottom: 2rem;
+    .barranav{
+        width: 100%;
+        margin: 0 auto;
+        background-color:$fondo;
+        .nav-link{
+            color: $blanco;
+        }
+        .nav-link:hover{
+            color: $dorado;
+            
+        }
     }
 }
+
 footer{
     width: 100%;
     background-color: $fondo;
     padding: 1rem 8%;
     display: flex;
     justify-content: center;
-    
-    
-    
+    margin-top: 2rem;
     .grupo1{
         display: flex;
         .box{
